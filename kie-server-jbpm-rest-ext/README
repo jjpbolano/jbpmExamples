@@ -1,0 +1,8 @@
+How to install&test
+
+- create the .jar
+- copy the .jar to <kie-server-path>/standalone/deployments/kie-server.war/WEB-INF/lib
+- start the kie-server
+- try: http://host:port/kie-server/services/rest/server/containers/1/pocres/2/echo, the answer must be:
+Echo for container: 1, PoCResource: 2
+
